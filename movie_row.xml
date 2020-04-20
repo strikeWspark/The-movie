@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="@string/movie_title"
+            android:layout_margin="@dimen/margin"
+            android:padding="@dimen/padding"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/overview"
+            android:layout_margin="@dimen/margin"
+            android:padding="@dimen/padding"
+            android:text="@string/movie_overview"
+            android:layout_below="@+id/title"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/releasedate"
+            android:layout_margin="@dimen/margin"
+            android:padding="@dimen/padding"
+            android:layout_below="@+id/overview"
+            android:text="@string/release"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating"
+            android:layout_margin="@dimen/margin"
+            android:padding="@dimen/padding"
+            android:text="@string/movie_rating"/>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
